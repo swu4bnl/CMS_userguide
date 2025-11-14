@@ -1,0 +1,20 @@
+[book]
+title = "CMS User Guide"
+authors = ["CMS Team"]
+description = "General User Guide for CMS info, operation, data analysis etc."
+language = "en"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/swu4bnl/CMS_userguide"
+edit-url-template = "https://github.com/swu4bnl/CMS_userguide/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 1
