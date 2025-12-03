@@ -7,3 +7,4 @@
 - [Globus User Guide](./Globus_Guide.md)
 - [Python Starter Guide](./Python_Starter_Guide_win64.md)
 - [runXS.py Starter Guide](./runXS_Starter_Guide_win64.md)
+- [Beamline Quick Start Guide](./Beamline_Quick_Start.md)
