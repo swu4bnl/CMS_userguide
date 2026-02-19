@@ -209,3 +209,6 @@ __marimo__/
 # mdbook output
 book/
 
+# Cache files for GitHub Copilot
+.copilot/
+.github/prompts/
