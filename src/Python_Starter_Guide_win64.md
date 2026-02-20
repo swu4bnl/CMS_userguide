@@ -2,7 +2,7 @@
 
 ---
 
-## **🧰 PART 1: Install Required Tools**
+## **PART 1: Install Required Tools**
 
 ### **1.**
 
@@ -27,7 +27,7 @@
 
 ---
 
-## **📦 PART 2: Download SciAnalysis**
+## ** PART 2: Download SciAnalysis**
 
 ### **3.**
 
@@ -41,7 +41,7 @@
 
 ---
 
-## **🧭 PART 3: Setup Environment Using Command Prompt**
+## ** PART 3: Setup Environment Using Command Prompt**
 
 ### **4.**
 
@@ -101,7 +101,7 @@ conda install scipy matplotlib h5py lxml pillow -y
 
 ---
 
-## **📝 PART 4: Edit the Script in VS Code**
+## ** PART 4: Edit the Script in VS Code**
 
 ### **8.**
 
@@ -126,7 +126,7 @@ conda install scipy matplotlib h5py lxml pillow -y
 
 ---
 
-## **▶️ PART 5: Run the Script**
+## ** PART 5: Run the Script**
 
 Back in Command Prompt:
 
