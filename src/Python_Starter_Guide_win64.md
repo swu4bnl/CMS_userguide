@@ -2,11 +2,9 @@
 
 ---
 
-## **PART 1: Install Required Tools**
+## PART 1: Install Required Tools
 
-### **1.**
-
-### **Install Anaconda (Python with Conda)**
+### 1. Install Anaconda (Python with Conda)**
 
 1. Go to: [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
 2. Download the **Windows 64-bit** version.
@@ -17,9 +15,7 @@
 
 ---
 
-### **2.**
-
-### **Install Visual Studio Code (VS Code)**
+### 2. Install Visual Studio Code (VS Code)
 
 1. Go to: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 2. Download and install using the defaults.
@@ -27,11 +23,9 @@
 
 ---
 
-## ** PART 2: Download SciAnalysis**
+## PART 2: Download SciAnalysis
 
-### **3.**
-
-### **Download ZIP from GitHub**
+### 3.Download ZIP from GitHub
 
 1. Visit: [https://github.com/CFN-SoftBio/SciAnalysis](https://github.com/CFN-SoftBio/SciAnalysis)
 2. Click the green **“Code”** button → Choose **“Download ZIP”**.
@@ -41,17 +35,13 @@
 
 ---
 
-## ** PART 3: Setup Environment Using Command Prompt**
+## PART 3: Setup Environment Using Command Prompt
 
-### **4.**
-
-### **Open Command Prompt**
+### 4.Open Command Prompt
 
 - Press Windows + R, type cmd, press Enter.
 
-### **5.**
-
-### **Navigate to Any Folder (example)**
+### 5.Navigate to Any Folder (example)
 
 ```
 cd C:\Users\YourUsername\Desktop\SciAnalysis
@@ -67,9 +57,7 @@ You should see files like setup.py.
 
 ---
 
-### **6.**
-
-### **Create and Activate Conda Environment**
+### 6.Create and Activate Conda Environment
 
 ```
 conda create -n scianalysis_env python=3.9 -y
@@ -83,9 +71,7 @@ conda activate scianalysis_env
 
 ---
 
-### **7.**
-
-### **Install Required Packages (That may take long to figure out)**
+### 7.Install Required Packages (That may take long to figure out)
 
 Install SciAnalysis dependencies:
 
@@ -101,32 +87,26 @@ conda install scipy matplotlib h5py lxml pillow -y
 
 ---
 
-## ** PART 4: Edit the Script in VS Code**
+## PART 4: Edit the Script in VS Code
 
-### **8.**
-
-### **Open VS Code**
+### 8.Open VS Code
 
 1. Launch VS Code.
 2. Go to **File → Open Folder** → Select: runWS.py
 
-### **9.**
-
-### **Install Python Extension in VS Code**
+### 9.Install Python Extension in VS Code
 
 1. Click the **Extensions** icon (left bar).
 2. Search **“Python”** and click **Install**.
 
-### **10.**
-
-### **Edit the Script**
+### 10.Edit the Script
 
 1. Open: runWS.py
 2. You can adjust input/output paths or settings as needed.
 
 ---
 
-## ** PART 5: Run the Script**
+## PART 5: Run the Script
 
 Back in Command Prompt:
 
