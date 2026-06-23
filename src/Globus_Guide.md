@@ -6,9 +6,12 @@
 2. Once logged in, open **Collections** (left menu) and search for **NSLS2**.  
    Select the **NSLS2** collection.
 
-3. In the NSLS2 collection, click **File Manager**.
+   - If you are first-time user, you might need to go to **File Manager** on the left pannel and search for **NSLS2**
+   - There might be extra authentication step.
 
-4. Change the default path (your home directory) to the CMS beamline data directory:  
+4. In the NSLS2 collection, click **File Manager**.
+
+5. Change the default path (your home directory) to the CMS beamline data directory:  
 
 ```bash
 /nsls2/data/cms/proposals/2025-3/pass-xxxxxx/experiments/
@@ -20,3 +23,4 @@
 If you don’t have one, install **Globus Connect Personal** and then re-try.
 
 7. With both endpoints active, select the files or folders you want to transfer using the checkboxes, then click **Transfer or Sync to…**.
+   - If the folder contains too many files. You can ask beamline staff for help. We can zip the folder.
